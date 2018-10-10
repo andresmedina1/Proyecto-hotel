@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Palanquin', sans-serif;
+}
+/*barra de navegacion*/
+nav {
+    position: relative;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+.nav-wrapper {
+    background-color: #0F1D2E;
+}
+    
+header{
+        width: 100%;
+        overflow: hidden;
+}
+header nav{
+    background-color: #0F1D2E;
+}
+    
+    
+.logo-DAECA{ 
+    position: absolute; 
+    height: 95px;
+    width: auto;
+    margin-top: -16px;
+}
+    
+header .sidenav li a{
+    color: white;
+}
+header .sidenav{
+    background-color: #0F1D2E;
+}
+    /*fin de barra de navegacion*/
+
+
+
+.slider .slides{
+    position: relative;
+    width: 100%;
+    height: 540px !important;
+   
+}
+.slider .slides li img{
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.slider {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    z-index: 1;
+    animation-duration: 1.5s;
+}
+.arrowright i, .arrowleft i{
+    color: rgb(255, 255, 255);
+}   
+.arrowright, .arrowleft{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.indicators{
+    z-index: 2;
+    color: #0F1D2E;
+}
+
+.arrowleft{
+    left: 80px;
+    top: -15%;
+    bottom: 0;
+    margin: auto 0;
+    opacity: 0;
+    z-index: 2;
+    transform: translateX(-80px);
+} 
+.arrowright{
+    right: 80px;
+    top: -15%;
+    bottom: 0;
+    margin: auto 0;
+    opacity: 0;
+    z-index: 2;
+    transform: translateX(80px);
+    
+}   
+.slider:hover .arrowright, .slider:hover .arrowleft{
+    opacity: 1;
+    transform: translateX(0);
+    
+}
+
+.habitaciones{
+    background-color: #0F1D2E;
+    width: 100%;
+    height: 100%;
+}
+.habitaciones h1{
+    font-family: "Pristina";
+    color: rgb(161, 119, 10);
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 1px 2px #FFFFFF;
+}
+.habitaciones p{
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 19px;
+    text-align: justify;
+    position: relative;
+    margin-top: 82px;
+}
+.servicios-iconos{
+    background-color: #0F1D2E;
+}
+
+.img-iconos li .responsive-img{
+    width:8%;
+    float: left;
+    margin-top: 10%;
+    margin-left:  5%;
+    margin-right: -9%;
+    display: flex;
+  
+}
+.letra{
+    float: left;
+    font-family: 'Palanquin', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-left: 0%;
+    margin-right: 5.4%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+
+
+.Habitaciones2{
+    background-color: #0F1D2E;
+    width: auto;
+    height: auto;
+    margin-top: -21px;
+    position: relative
+}
+.container1{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 112px;
+    overflow: hidden;
+    display: inline-block;
+    }
+.container1 .responsive-img, .container2 .responsive-img, .container3 .responsive-img, .container4 .responsive-img{
+        margin-top: 20px;
+        width: 800px;
+       height: 400px;
+       border: 3px solid white;
+    }
+
+.container2{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.664);
+}
+.container3{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.664);
+}
+.container4{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.664);
+}
+
+
+.Habitaciones2 .container .article1{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+ .article1 .t1{
+    font-family: "Pristina";
+    color: rgb(161, 119, 10);
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+ .article1  .t2{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 45px;
+    font-weight: bold;
+}
+.article1 .t3{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 14px;
+    margin-right: 20px;
+    
+
+}
+.article1 p{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 15px;
+    text-align: right;
+    padding: 20px;
+}
+.article1 a{
+    width: 127px;
+    height: 33px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.664);
+    margin-right: 20px;
+    padding: 3px;
+}
+.Habitaciones2 .container .article2{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.article1 p{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 15px;
+    text-align: right;
+    padding: 20px;
+
+}
+.article1 a{
+    width: 127px;
+    height: 33px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    padding: 3px;
+    margin-top: 0px;
+}
+.article1 a:hover{
+    border: 2px solid #a67d4a;
+    color: #a67d4a;
+}
+.Habitaciones2 .container .article2{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.Habitaciones2 .cont{
+    margin-bottom: 25px;
+}
+
+ .article2 .ti1{
+    font-family: "Pristina";
+    color: rgb(161, 119, 10);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+ .article2  .ti2{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-weight: bold;
+}
+.article2 .ti3{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 14px;
+    margin-left: 20px;
+    
+}
+.article2 p{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 15px;
+    text-align: left;
+    padding: 20px;
+}
+.article2 a{
+    width: 127px;
+    height: 33px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.664);
+    margin-left: 20px;
+    padding: 3px;
+}
+.article2 a:hover{
+    border: 2px solid #a67d4a;
+    color: #a67d4a;
+}
+.iconr{
+    width: 232px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    right: 50px;
+    top: 100px;
+    z-index: 1;
+}
+.iconr .responsive-img{
+    width: 40%;
+}
+.iconr .trese{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Palanquin', sans-serif;
+}
+
+/*************RESERVA***************************/
+.reservacion{
+    position: relative;
+    background-color: #0F1D2E;
+}
+.reservacion .material-icons{
+    color: white;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.reservacion p{
+    color: white;
+    margin-top: 15px;
+}
+.reservacion .datepicker{
+    color: white;
+}
+.reservacion .btr1{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 16px;
+    margin-right: -84px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+.reservacion .btr1:hover{
+    border: 2px solid #a67d4a; 
+    color: #a67d4a;
+}
+.reservacion .btr2{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 16px;
+    margin-right: 28px;    
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+.reservacion .btr2:hover{
+    border: 2px solid #a67d4a; 
+    color: #a67d4a;
+}
+/************FOOTER*************************************/
+.fondo{
+    background-color: #0F1D2E;
+    width: 100%;
+    height: 140px;
+    border-top: 2px solid white;
+    position: absolute;
+}
+.fondo .content1{
+    height: auto;
+    width: 673px;
+    position: relative;
+    right: 40%;
+    display: inline-block;
+}
+.fondo .content1 .linksfo{
+    display: inline-block;
+}
+.fondo .content1 .linksfo li a{
+    position: relative;
+    top: 20px;
+    font-size: 13px;
+    color: white;
+    text-transform:  uppercase;
+    transition: 1s;
+}
+.fondo .content1 .linksfo li a:hover{
+    color: #a67d4a;
+}
+.fondo .fot2{
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+    text-align: left;
+    color: white;
+}
+
+.fondo .content2{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 45px 0 0 34px;
+}
+
+.fondo .content2 .facebook, .insta, .twitter, .gplus{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    border: 2px solid white;
+    transform: rotate(45deg);
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    transition: 1s;
+} 
+.fondo .content2 .facebook:hover{
+    background-color: rgb(0, 0, 104);
+    border: 2px solid #a67d4a;
+}
+.fondo .content2  .insta:hover{
+    background-color: rgb(189, 0, 179);
+    border: 2px solid #a67d4a;
+}
+.fondo .content2  .twitter:hover{
+    background-color: rgb(8, 164, 255);
+    border: 2px solid #a67d4a;
+}
+.fondo .content2  .gplus:hover{
+    background-color: rgb(255, 8, 8);
+    border: 2px solid #a67d4a;
+}
+.fondo .content2 .facebook .responsive-img, .insta .responsive-img, .twitter .responsive-img, .gplus .responsive-img{
+    width: 70%;
+    position: relative;
+    transform: rotate(-45deg);
+    top: 6px;
+    left: 0px;
+}
+
+/*pc grande*/
+@media only screen and (min-width:1200px){
+    .Container{ 
+        Width:70%;
+    }
+
+}
+
+
+
+
+/*pc pequeña*/
+@media only screen and (min-width:992px)and (max-width:1199px){
+    .Container{ 
+        Width:70%;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width:600px) and (max-width:992px){
+    .Container{ 
+        Width:85%;
+    }
+   
+    .logo-DAECA {
+        height: 63px;
+        width: 146px;
+      
+    }
+    
+    .habitaciones h1{
+        font-size: 25px;
+    }
+    .habitaciones p{
+        font-size: 20px;
+       margin-left: 1%;
+       margin-right: 1%;
+    }
+    
+    .img-iconos li .responsive-img{
+        width: 9%;
+        margin-top: 10%;
+        margin-left: 0%;
+        margin-right: 2%;
+       
+    }
+    
+    .letra{
+        font-size: 12px;
+        margin-left: -12%;
+        margin-right: 3%;
+        margin-top: 27%;
+        margin-bottom: 8%;
+        text-align: center;
+    }
+    .article1 .t1{
+        font-size: 7.93mm;  
+        font-weight: bold;
+    }
+    }
+    
+    
+
+
+/*moviles*/
+@media only screen and (max-width:600px){
+.Container{ 
+    Width:90%;
+}
+.logo-DAECA {
+    height: 56px;
+    width: 136px;
+    
+}
+
+.habitaciones h1{
+    font-size: 22px;
+}
+.habitaciones p{
+   font-size: 18px;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+
+.img-iconos li .responsive-img{
+    width: 15%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 11%;
+    margin-right: 0%;
+  
+}
+.letra{
+    font-weight: bold;
+    font-size: 100%;
+    margin-left: -15%;
+    margin-right: 1%;
+    margin-top: 27%;
+    margin-bottom: 0%;
+    display: block;
+}
+.article1 .t1{
+    font-size: 7.93mm;  
+    font-weight: bold;
+}
+
+}
