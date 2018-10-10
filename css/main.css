@@ -390,15 +390,26 @@ p{
 
 /*tablet*/
 @media only screen and (min-width:600px) and (max-width:992px){
-
-    .textPart1{
-        font-size: 25px;
+    .row .col.m2 {
+        width: 32.666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+        margin-top: 20px;
+    }
+    .reservacion .btr1 {
+        width: 200px;
+        height: 50px;
+        border: 2px solid #0F1D2E;
+        border-radius: 5px;
+        background: none;
+        color: #0F1D2E;
+        left: 112%;
+        padding: 5px 14px;
     }
 }
 
 /*moviles*/
 @media only screen and (max-width:600px){
-    .textPart1{
-        font-size: 15px;
-    }
+    
 }
