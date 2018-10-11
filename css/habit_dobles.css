@@ -84,11 +84,12 @@ nav .nav-wrapper{
 }
 
 .info p{
-    margin-top: 40px;
+    margin-top: 20px;
     color:#0F1D2E ;
     font-family: 'Palanquin', sans-serif;
     padding: 20px;
 }
+
 .re_info{
     width: 127px;
     height: 33px;

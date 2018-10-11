@@ -86,7 +86,14 @@ img {
 }
 .button-info{
     width: 52%;
-    padding: 23px 56px 0px 62px;
+    padding: 23px 56px 0px 62px
+}
+.button-info a{
+    color: #fff;
+}
+.habitacion .fechas .datepicker{
+    margin-top: 15px;
+    width: 48%;
 }
 .item .button-info .btn-info{
     width: 100%;
@@ -113,4 +120,7 @@ img {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+}
+.btn-info2{
+    margin-top: 20px;
 }

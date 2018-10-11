@@ -19,13 +19,9 @@ var config = {
   
 /*++++++++FECHA ***************************************/
 document.addEventListener('DOMContentLoaded', function() {
-    var elemsfe = document.querySelectorAll('.datepicker');
-    var instancesfe = M.Datepicker.init(elemsfe);
-  });
-  document.addEventListener('DOMContentLoaded', function() {
-    var elemsho = document.querySelectorAll('.timepicker');
-    var instancesho = M.Timepicker.init(elemsho);
-  });
+  var elemsf = document.querySelectorAll('.datepicker');
+  var instancesf = M.Datepicker.init(elemsf);
+});
 
 
 

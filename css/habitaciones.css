@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Palanquin');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 body{
     background-color: white;
@@ -120,6 +120,7 @@ nav .nav-wrapper{
     height: 415px;
     text-align: center;
     background-color: white;
+    margin-bottom: 30px;
 }
 .gallery .btn-img{
     width: 100%;
@@ -181,7 +182,18 @@ nav .nav-wrapper{
     text-align: center;
     margin-top: 10%;
 }
+.info h3{
+    width: 100%;
+    color: rgb(161, 119, 10);
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 180px;
+}
 
+.info p{
+    margin-top: 20px;
+}
 
 
 
