@@ -124,3 +124,10 @@ img {
 .btn-info2{
     margin-top: 20px;
 }
+
+@media only screen and (min-width:600px) and (max-width:992px){
+    .item .button-info .btn-info{
+        width: 148px;
+        
+    }
+}

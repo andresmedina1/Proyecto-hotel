@@ -3,6 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
     var instancesnav = M.Sidenav.init(elemsnav);
     
   });
+  $('.toggle').click(function(){
+    $('.formulario').animate({
+        height: "toggle",
+        'padding-top': 'toggle',
+        'padding-bottom': 'toggle',
+        opacity: 'toggle'
+    }, "slow");
+});
 
 
   var config = {
@@ -44,8 +52,8 @@ $formRegister.addEventListener('submit', async function (event){
 })
 
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('select');
-    var instances = M.FormSelect.init(elems);
+    var elems1 = document.querySelectorAll('select');
+    var instances1 = M.FormSelect.init(elems1);
   });
 
   

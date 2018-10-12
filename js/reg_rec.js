@@ -3,7 +3,14 @@ document.addEventListener('DOMContentLoaded', function () {
     var instancesnav = M.Sidenav.init(elemsnav);
 
 });
-
+$('.toggle').click(function(){
+    $('.formulario').animate({
+        height: "toggle",
+        'padding-top': 'toggle',
+        'padding-bottom': 'toggle',
+        opacity: 'toggle'
+    }, "slow");
+});
 
 var config = {
     apiKey: "AIzaSyB3G1sNiRiMGXR48wR0FAjlF_zaIsMA6c8",
@@ -42,3 +49,8 @@ $formRegister.addEventListener('submit', async function (event) {
         console.log(e)
     })
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems1 = document.querySelectorAll('select');
+    var instances1 = M.FormSelect.init(elems1);
+  });
